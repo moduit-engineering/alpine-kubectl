@@ -2,7 +2,7 @@ FROM alpine:3.12
 
 MAINTAINER moduit-engineering <engineering@moduit.id>
 
-ARG KUBE_VERSION="v1.19"
+ARG KUBE_VERSION="v1.19.0"
 
 #apk add --no-cache ca-certificates bash git openssh curl
 RUN apk add --no-cache curl \
